@@ -1,0 +1,7 @@
+.app {
+  background-color: #d5ab7a;
+}
+
+button:focus {
+  outline: none;
+}
