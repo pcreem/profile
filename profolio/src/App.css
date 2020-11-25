@@ -2,6 +2,18 @@
   background-color: #d5ab7a;
 }
 
+.app__container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
 button:focus {
   outline: none;
+}
+
+.app__footer {
+  display: flex;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.2);
+  padding: 50px;
 }

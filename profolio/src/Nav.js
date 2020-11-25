@@ -4,12 +4,17 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 function Nav() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="nav">
-      <div className="nav__logo">
-        <a herf="/">
-          <h3>CP</h3>
-        </a>
+      <div className="nav__logo" onClick={scrollToTop}>
+        <h3>CP</h3>
       </div>
       <div className="nav__social">
         <a href="https://github.com/pcreem" target="_blank" rel="noreferrer">
